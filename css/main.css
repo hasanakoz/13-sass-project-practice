@@ -137,6 +137,9 @@
   border-bottom: 5px solid #ff652f;
   position: relative;
 }
+.projects__item img {
+  width: 100%;
+}
 .projects__item::after {
   content: "";
   height: 100%;
@@ -168,7 +171,6 @@ footer.horizontal {
 }
 
 footer.vertical {
-  border: 2px solid red;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -179,6 +181,7 @@ footer.vertical .social-icons {
   display: flex;
   flex-direction: column;
   position: fixed;
+  bottom: 1rem;
 }
 footer.vertical .copyright {
   position: fixed;
